@@ -6,7 +6,7 @@ const crypto = require('crypto');
 const connection = require('../database/connection'); // Conecta com o banco de dados
 
 
-
+// Controlado para ongs
 module.exports = {
 
     //Método que busca a listagem de todos os dados

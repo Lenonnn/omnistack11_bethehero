@@ -2,17 +2,17 @@ import React from 'react';
 
 import './global.css';
 
-import Logon from './pages/Logon';
+import Routes from './routes';
 
 // Desenvolvimento será passado como parâmetro para index.js
 // Componente do React é uma função que retorna HTML
 // Quando o HTML está escrito dentro do HTML temos o JSX ( JavasCript XML)
 
 function App() {
-//Stoped in 00:37:00
+
 
   return (
-    <Logon/>
+    <Routes/>
   );
 
   //////////Apresentção de conceitos///////////////////////////////

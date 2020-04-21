@@ -1,5 +1,6 @@
 const connection = require('../database/connection')
 
+// Controlador de sessão
 module.exports = {
     async create(request, response) {
         const { id } = request.body;

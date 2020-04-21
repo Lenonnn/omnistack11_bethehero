@@ -1,5 +1,6 @@
-npx serve para executar uma pacote aon invés de instalar um pacote
+ `-Usando bakcend_` Utilize npx serve para executar uma pacote ao invés de instalar um pacote
 
+# Métodos HTTP
  /**
      * -->  MÉTODOS HTTP:
      * GET / PUT / POST / DELETE
@@ -13,7 +14,7 @@ npx serve para executar uma pacote aon invés de instalar um pacote
      * 
      * Request Boby: Corpo da requisição, utilizado para criar ou alterar recursos
     **/
-
+# DB's Informations
     /** 
      * --> BANCOS DE DADOS
      * 
@@ -28,3 +29,19 @@ npx serve para executar uma pacote aon invés de instalar um pacote
      * /// Query Builder usando JS: table('users').select('*').where()
      * 
     **/
+
+# Como Uusar
+
+`_Baixe os pacote npm rodando "npm install" ` e após, use npm start, assim o servidor de backend irá rodar a aplicação
+
+# Criando novas tabelas de banco de dados
+
+npx knex migrate:make create_incidents
+
+# Verificando Status NPX
+
+npx migrate:status
+
+# Passando todas as atualizações do SQLite para o banco de Dados
+
+npx knex migrate:latest

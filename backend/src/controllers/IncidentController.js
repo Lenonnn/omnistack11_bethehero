@@ -1,5 +1,5 @@
 const connection = require('../database/connection')
-
+// Controlador para incidents
 module.exports = {
 
     async index(request, response) {
